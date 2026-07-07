@@ -9,34 +9,20 @@ case/hearing lookups.
 
 ## Features
 
-- **Dual login flows** – separate entry points and dashboards for **Advocates**
-  and **Clients**.
-- **Case management** – create new cases, view active/pending cases, and drill
-  into case details (`views/new_case.py`, `views/active_cases.py`,
-  `views/case_detail.py`, `views/matters.py`).
-- **Dashboards** – role-specific dashboards summarizing active cases, service
-  requests, and hearings for the week (`views/dashboard.py`,
-  `views/client_dashboard.py`).
-- **Hearings & Calendar** – track upcoming hearings and view them on a
-  calendar (`views/calendar.py`, `views/hearings_this_week.py`).
-- **Documents** – upload/manage case documents, with separate views for
-  advocates and clients (`views/documents.py`, `views/client_documents.py`).
-- **Billing & Payments** – fee tracking and payment status (cash/online),
-  including deadlines and confirmation workflow
-  (`views/billing.py`, `views/client_billing.py`).
-- **AI Assistant** – a lightweight keyword-based assistant that answers
-  questions about hearings, cases, and documents (`views/assistant.py`).
-- **Localization (i18n)** – every screen supports toggling the UI language
-  between English and Telugu via a single translation layer (`i18n.py`).
-- **SQLite persistence** – all data (users, cases, hearings, documents,
-  payments) is stored locally in `vidhi_users.db` (`services/db.py`).
+- **Dual dashboards** — separate advocate and client-facing views tailored to each role's needs
+- **Case management** — track active cases, pending service requests, and upcoming hearings
+- **Document management** — upload, organize, and retrieve case documents by folder/category, with collision-safe file naming
+- **Billing & payments** — track fees, payments, and deadlines per case
+- **Multi-language support** — full Telugu translation alongside English (180+ translated strings across the app)
+- **Light/dark theme support** with theme-aware styling throughout
+- **Local calendar view** for hearings and deadlines
 
 ## Tech Stack
 
 | Layer          | Technology                     |
 |----------------|---------------------------------|
 | UI Framework   | [Flet](https://flet.dev) (Flutter for Python) |
-| Language       | Python 3                        |
+| Language       | Python 3.10                        |
 | Database       | SQLite (`vidhi_users.db`)        |
 | Assets         | Local images (`assets/logo.png`, `assets/background.png`) |
 
