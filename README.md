@@ -102,18 +102,6 @@ vidhi_fixed/
 ### Active Cases
 ![Active Cases](screenshots/active_cases.png)
 
-### Case Detail
-![Case Detail](screenshots/case_detail.png)
-
-### Documents
-![Documents](screenshots/documents.png)
-
-### Calendar / Hearings
-![Calendar](screenshots/calendar.png)
-
-### Billing
-![Billing](screenshots/billing.png)
-
 ## Getting Started
 
 ### Prerequisites
