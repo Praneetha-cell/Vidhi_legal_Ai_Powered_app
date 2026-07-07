@@ -21,7 +21,7 @@ case/hearing lookups.
 
 | Layer          | Technology                     |
 |----------------|---------------------------------|
-| UI Framework   | [Flet](https://flet.dev) (Flutter for Python) |
+| UI Framework   | [Flet](https://flet.dev) (Version:0.85.3) |
 | Language       | Python 3.10                        |
 | Database       | SQLite (`vidhi_users.db`)        |
 | Assets         | Local images (`assets/logo.png`, `assets/background.png`) |
